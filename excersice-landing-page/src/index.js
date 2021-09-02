@@ -1,11 +1,15 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import "./index.css";
-import data from '../data.json'
+import data from "../data.json";
+import navbar from "./components/navbar";
+import header from "./components/header";
+import bootcamps from "./components/bootcamps";
 
 const App = (
   <div>
-    Hello React
+    {navbar}
+    {header}
+    {bootcamps}
   </div>
 );
 

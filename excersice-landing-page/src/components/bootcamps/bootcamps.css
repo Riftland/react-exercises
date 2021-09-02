@@ -1,0 +1,8 @@
+.headerBootcamps {
+  font-size: 45px;
+}
+
+.cards {
+  display: flex;
+  flex-direction: row;
+}

@@ -1,0 +1,25 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  border-bottom: solid 1px black;
+}
+
+.imgHeader {
+  width: 50%;
+  margin: 0;
+}
+
+.headerText {
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+h1 {
+  font-size: 60px;
+  font-weight: bolder;
+}
+
+button {
+  background-color: red;
+  color: white;
+}
